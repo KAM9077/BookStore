@@ -1,0 +1,77 @@
+HOME:
+<style>
+body {
+
+background-image: url(HOME.gif) ;
+background-color: rgba(255,255,255,0.4);
+    background-blend-mode: lighten;
+}
+</style>
+
+
+
+
+ALLBOOKS
+
+<style>
+body {
+
+background-image: url(HOME2.gif) ;
+background-color: rgba(255,255,255,0.4);
+    background-blend-mode: lighten;
+}
+</style>
+
+
+CHILDREN
+<style>
+body {
+
+background-image: url(CARTOON.gif) ;
+background-color: rgba(255,255,255,0.4);
+    background-blend-mode: lighten;
+}
+</style>
+
+
+ROMANCE
+<style>
+body {
+
+background-image: url(ROMANCE.gif) ;
+background-color: rgba(255,255,255,0.4);
+    background-blend-mode: lighten;
+}
+</style>
+
+
+HOROOR
+<style>
+body {
+
+background-image: url(HORROR.gif) ;
+background-color: rgba(255,255,255,0.4);
+    background-blend-mode: lighten;
+}
+</style>
+
+SCIENCE
+<style>
+body {
+
+background-image: url(SCIENCE.gif) ;
+background-color: rgba(255,255,255,0.4);
+    background-blend-mode: lighten;
+}
+</style>
+
+AUTHOR
+
+<style>
+body {
+
+background-image: url(AUTHOR.jpg) ;
+background-color: rgba(255,255,255,0.4);
+    background-blend-mode: lighten;
+}
+</style>

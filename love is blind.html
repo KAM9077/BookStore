@@ -1,0 +1,55 @@
+<html>
+<head>
+  <style>
+.city {
+   float: left;
+   margin: 10px;
+   padding: 10px;
+   max-width: 300px;
+   height: 300px;
+   border: 1px solid black;
+}   
+</style>
+
+  <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+  <title>Love is...Blind</title>
+</head>
+<body>  
+
+   <style>
+body {
+
+background-image: url(blind.jpg) ;
+background-color: rgba(255,255,255,0.7);
+    background-blend-mode: lighten;
+}
+</style>
+  <h1 style="color: red; text-align: center; font-size: 60px">Love is...Blind</h1>
+
+  <h3 class="ahmad" style="color: blue; text-align: center; font-size: 25px" >by<br>Gabriela Louis</h3>
+  <hr>
+<h4 class="ahmad" style="color: green; text-align: center; font-size: 20px" >Published Year : 2016</h4>
+<img src="https://dwtr67e3ikfml.cloudfront.net/bookCovers/0fb16f0f26df10396ddd2cec91ac953de3889b84" width="330" height="330">
+<div class="city" style="text-align: -webkit-center;">
+  <p> <h4 style="color: blue; text-align: center; font-size: 20px">Describtion of Book</h4> </p><br>
+ <article > <p1> "Josie is a single mother struggling to raise her daughter by herself. When the police find a dead body at her mother’s house, Jerome, a burned out cop, and unattached neat freak lets them stay at his apartment for their protection. Will he be able to solve the crime and protect Josie and her daughter, or is he the one who needs protecting from them"</p1>
+</article>
+<br>
+  <button>  <a style="color: red; text-align: center;" id ="Bookname" href="">Free PDF Downloade</a>  </button>
+ </div>
+<br><br><br><br><br><br><br>
+  <script>
+var buttoon = document.getElementById('Bookname');
+buttoon.onclick  = function (){
+  $("#Bookname").attr("href", "https://www.smashwords.com/books/download/648385/1/latest/0/0/love-isblind.pdf"); 
+}
+
+$('.ahmad').css('text-align','center')
+   </script>
+
+
+  
+  <script type="text/javascript" src="Test.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,54 @@
+<html>
+<head>
+  <style>
+.city {
+   float: left;
+   margin: 10px;
+   padding: 10px;
+   max-width: 300px;
+   height: 300px;
+   border: 1px solid black;
+}   
+</style>
+
+  <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+  <title>Fresh Future</title>
+</head>
+<body>  
+
+   <style>
+body {
+
+background-image: url(Science1.jpg) ;
+background-color: rgba(255,255,255,0.7);
+    background-blend-mode: lighten;
+}
+</style>
+  <h1 style="color: red; text-align: center; font-size: 60px">Fresh Future</h1>
+  <h3 class="ahmad" style="color: blue; text-align: center; font-size: 25px" >by<br>Arsalan Pourdavar</h3>
+  <hr>
+<h4 class="ahmad" style="color: green; text-align: center; font-size: 20px" >Published Year : 2016</h4>
+<img src="https://dwtr67e3ikfml.cloudfront.net/bookCovers/f8d96e4c1069f2c7af179994019a9ec25449e738" width="330" height="330">
+<div class="city" style="text-align: -webkit-center;">
+  <p> <h4 style="color: blue; text-align: center; font-size: 20px">Describtion of Book</h4> </p><br>
+ <article > <p1> "An alien race 70 light years from Earth is desperately looking for a new home world as their own is about to be destroyed by a rogue planet. The only choice is Earth, and so they decide to de-populate, and take it for themselves. A lone scientist battles to prove that the aliens are finally on Earth, unfortunately she has come to the aliens` notice, and now the fight is on, the winner takes all."</p1>
+</article>
+<br>
+  <button>  <a style="color: red; text-align: center;" id ="Bookname" href="">Free PDF Downloade</a>  </button>
+ </div>
+<br><br><br><br><br><br><br>
+  <script>
+var buttoon = document.getElementById('Bookname');
+buttoon.onclick  = function (){
+  $("#Bookname").attr("href","https://www.smashwords.com/books/download/688624/1/latest/0/0/fresh-future.pdf"); 
+}
+
+$('.ahmad').css('text-align','center')
+   </script>
+
+
+  
+  <script type="text/javascript" src="Test.js"></script>
+</body>
+</html>
+

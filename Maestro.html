@@ -1,0 +1,54 @@
+<html>
+<head>
+  <style>
+.city {
+   float: left;
+   margin: 10px;
+   padding: 10px;
+   max-width: 300px;
+   height: 300px;
+   border: 1px solid black;
+}   
+</style>
+
+  <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+  <title>Maestro</title>
+</head>
+<body>  
+
+   <style>
+body {
+
+background-image: url(book-cover-1252524_960_720.jpg) ;
+background-color: rgba(255,255,255,0.7);
+    background-blend-mode: lighten;
+}
+</style>
+  <h1 style="color: red; text-align: center; font-size: 60px">Maestro</h1>
+  <h3 class="ahmad" style="color: blue; text-align: center; font-size: 25px" >by<br>Nicholas Paschall</h3>
+  <hr>
+<h4 class="ahmad" style="color: green; text-align: center; font-size: 20px" >Published Year : 2016</h4>
+<img src="https://dwtr67e3ikfml.cloudfront.net/bookCovers/b354b47b6ae838e84dfcb0bd8f736cd7f980538c" width="330" height="330">
+<div class="city" style="text-align: -webkit-center;">
+  <p> <h4 style="color: blue; text-align: center; font-size: 20px">Describtion of Book</h4> </p><br>
+ <article > <p1> "Sarah is on her way home after a babysitting job when she is suddenly accosted by a creature of the night. Torn to pieces, she finds herself enslaved to the mad vampire, who forces her into a ghostly choir, where she begins to learn an ancient song from the favored soul. She can't control herself, and she knows she's losing more of herself as the seconds tick by"  </p1>
+</article>
+<br>
+  <button>  <a style="color: red; text-align: center;" id ="Bookname" href="">Free PDF Downloade</a>  </button>
+ </div>
+<br><br><br><br><br><br><br>
+  <script>
+var buttoon = document.getElementById('Bookname');
+buttoon.onclick  = function (){
+  $("#Bookname").attr("href","https://www.smashwords.com/books/download/690249/1/latest/0/0/maestro.pdf"); 
+}
+
+$('.ahmad').css('text-align','center')
+   </script>
+
+
+  
+  <script type="text/javascript" src="Test.js"></script>
+</body>
+</html>
+

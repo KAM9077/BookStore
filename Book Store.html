@@ -1,0 +1,103 @@
+<html>
+<head>
+	<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+	<title>Book Store</title>
+</head>
+<body>
+<style>
+body {
+
+background-image: url(HOME.gif) ;
+background-color: rgba(255,255,255,0.4);
+    background-blend-mode: lighten;
+}
+	
+th:nth-child(even) {
+	border: 3px solid #dddddd;
+    background-color: powderblue;
+    padding: 10px;
+    padding-color:blue;
+    text-align: center;
+
+}
+
+button {
+  background-color: powderblue;
+  width: 75%;
+}
+
+#table2 {
+    background-color: powderblue;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#table1 {
+    background-color: powderblue;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 99%;
+}
+
+td, th {
+    border: 3px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+</style>     
+
+
+	<h1 style="font-size:250%;">Book Store</h1>
+  <table id ="table1">
+
+    <th> <a id ="00" href="All books.html"><button id="0"> <h2>All books</h2></button></a></th>  
+   
+    <th> <a id ="01" href="Authors.html"> <button id="1"> <h2>Authors</h2></button></a></th> 
+
+    <th> <a id ="02"  href=""></a> <button id="2"> <h2>Year</h2></button></th> 
+      <!-- <button id="3">Art</button> -->
+  </table>    
+
+<h3 style="font-size:200%;">Categories</h3>
+<table id ="table2" style="width:10%" >
+  <tr>
+    <th><a href="Horor.html"><h3 >Horror</h3> </a></th>   
+  </tr>
+  <tr>
+    <th><a href="Sciences.html"><h3>Science</h3></a></th>   
+  </tr>
+  <tr>
+    <th><a href="Romance.html"><h3>Romance</h3></a></th>   
+  </tr>
+  <tr>
+    <th><a href="Children.html"><h3>Children</h3></a></th>   
+  </tr>
+    
+
+
+</table>
+
+<script>
+// var=['0','1','2','3'];
+var b0 = document.getElementById('0');
+var b1 = document.getElementById('1');
+var b2 = document.getElementById('2');
+var b3 = document.getElementById('3');
+
+b0.onclick  = function ('0'){
+  $("#00").attr("href", "All books.html");  
+b1.onclick  = function ('1'){
+  $("#01").attr("href", "Authors.html");  
+
+</script>
+
+	<script type="text/javascript" src="HTML(2).js"></script>
+	<link rel="stylesheet" type="text/css" href="HTML(2).css">
+</body>
+</html>

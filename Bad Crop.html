@@ -1,0 +1,55 @@
+<html>
+<head>
+  <style>
+.city {
+   float: left;
+   margin: 10px;
+   padding: 10px;
+   max-width: 300px;
+   height: 300px;
+   border: 1px solid black;
+}   
+</style>
+
+  <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+  <title>Bad Crop</title>
+</head>
+<body>  
+
+   <style>
+body {
+
+background-image: url(cat-1690799_960_720.jpg) ;
+background-color: rgba(255,255,255,0.5);
+    background-blend-mode: lighten;
+}
+</style>
+  <h1 style="color: red; text-align: center; font-size: 60px">Bad Crop</h1>
+
+  <h3 class="ahmad" style="color: blue; text-align: center; font-size: 25px" >by<br>Nicholas Paschall</h3>
+  <hr>
+<h4 class="ahmad" style="color: green; text-align: center; font-size: 20px" >Published Year : 2016</h4>
+
+<div class="city" style="text-align: -webkit-center;">
+  <p> <h4 style="color: blue; text-align: center; font-size: 20px">Describtion of Book</h4> </p><br>
+ <article > <p1> "An inquisition is held where one brother is given his just desserts for his wicked ways, while the other is forced to watch his loved one burn for his sins before joining her in the pit."   </p1>
+</article>
+<br>
+  <button>  <a style="color: red; text-align: center;" id ="Bookname" href="">Free PDF Downloade</a>  </button>
+ </div>
+<br><br><br><br><br><br><br>
+  <script>
+var buttoon = document.getElementById('Bookname');
+buttoon.onclick  = function (){
+  $("#Bookname").attr("href","https://www.smashwords.com/books/download/690251/1/latest/0/0/bad-crop.pdf"); 
+}
+
+$('.ahmad').css('text-align','center')
+   </script>
+
+
+  
+  <script type="text/javascript" src="Test.js"></script>
+</body>
+</html>
+

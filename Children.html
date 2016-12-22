@@ -1,0 +1,101 @@
+<html>
+<head>
+  <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+  <title>Children</title>
+</head>
+<body>
+<style>
+body {
+
+background-image: url(CARTOON.gif) ;
+background-color: rgba(255,255,255,0.4);
+    background-blend-mode: lighten;
+}
+  
+th:nth-child(even) {
+  border: 3px solid #dddddd;
+    background-color: powderblue;
+    padding: 10px;
+    padding-color:blue;
+    text-align: center;
+
+}
+
+button {
+  background-color: powderblue;
+  width: 75%;
+}
+
+#table2 {
+    background-color: powderblue;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#table1 {
+    background-color: powderblue;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 99%;
+}
+
+td, th {
+    border: 3px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+</style>     
+
+
+  <h1 style="font-size:250%;">Book Store</h1>
+  <table id ="table1">
+    <th> <a id ="00" href="All books.html"><button id="0"><h2>All books</h2></button></a></th>
+    <th> <a id ="01" href="Authors.html"><button id="1"> <h2>Authors</h2></button></a></th>
+  </table>    
+
+<h3 style="font-size:200%;">Children</h3> 
+  
+<table id ="table2" style="width:15%" >
+  <tr>
+    <th><a href="treck.html"><h3 >Trick or Treat</h3> </a></th>   
+  </tr>
+  <tr>
+    <th><a href="sands.html"><h3>Sands of Time</h3></a></th>   
+  </tr>
+  <tr>
+    <th><a href="bianca.html"><h3>Bianca</h3></a></th>   
+  </tr>
+    
+
+
+</table>
+<script>
+var b0 = document.getElementById('0');
+var b1 = document.getElementById('0');
+var b2 = document.getElementById('0');
+var b3 = document.getElementById('0');
+b0.onclick  = function ('0'){
+  $("#10").attr("href", "http://www.google.com/");
+  var b0 = document.getElementById('0');
+b1.onclick  = function ('1'){
+  $("#10").attr("href", "http://www.google.com/");
+  var b0 = document.getElementById('0');
+b2.onclick  = function ('2'){
+  $("#10").attr("href", "http://www.google.com/");
+  var b0 = document.getElementById('0');
+b3.onclick  = function ('3'){
+  $("#10").attr("href", "http://www.google.com/");
+
+</script>
+
+  <script type="text/javascript" src="HTML(2).js"></script>
+  <link rel="stylesheet" type="text/css" href="HTML(2).css">
+</body>
+</html>
+

@@ -1,0 +1,55 @@
+<html>
+<head>
+  <style>
+.city {
+   float: left;
+   margin: 10px;
+   padding: 10px;
+   max-width: 300px;
+   height: 300px;
+   border: 1px solid black;
+}   
+</style>
+
+  <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+  <title>Words</title>
+</head>
+<body>  
+
+   <style>
+body {
+
+background-image: url(danbo-1863422_960_720.jpg) ;
+background-color: rgba(255,255,255,0.4);
+    background-blend-mode: lighten;
+}
+</style>
+  <h1 style="color: red; text-align: center; font-size: 60px">Words</h1>
+
+  <h3 class="ahmad" style="color: blue; text-align: center; font-size: 25px" >by <br>Terry Odell</h3>
+  <hr>
+ <h4 class="ahmad" style="color: green; text-align: center; font-size: 20px" >Published Year : 2010</h4>
+
+<div class="city" style="text-align: -webkit-center;">
+  <p> <h4 style="color: blue; text-align: center; font-size: 20px">Describtion of Book</h4> </p><br>
+ <article > <p1> "What does it take for a man to say, 'I love you' out loud? Certainly the woman he loves can tell from his actions. And if she can tell, why must he initiate those words? Words explores new love first from his point of view, then hers. A sensual read, guaranteed to make you seek out that special someone in your life."  </p1>
+</article>
+<br>
+  <button>  <a style="color: red; text-align: center;" id ="Bookname" href="">Free PDF Downloade</a>  </button>
+ </div>
+<br><br><br><br><br><br><br>
+  <script>
+var buttoon = document.getElementById('Bookname');
+buttoon.onclick  = function (){
+  $("#Bookname").attr("href","https://www.smashwords.com/books/download/17622/1/latest/0/0/words.pdf"); 
+}
+
+$('.ahmad').css('text-align','center')
+   </script>
+
+
+  
+  <script type="text/javascript" src="Test.js"></script>
+</body>
+</html>
+
